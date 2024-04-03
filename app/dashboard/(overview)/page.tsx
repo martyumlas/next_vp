@@ -1,8 +1,8 @@
-import { fetchLatestInvoices, fetchRevenue, fetchCardData } from "../lib/data";
-import { Card } from "../ui/dashboard/cards";
-import LatestInvoices from "../ui/dashboard/latest-invoices";
-import RevenueChart from "../ui/dashboard/revenue-chart";
-import { lusitana } from "../ui/fonts";
+import { fetchLatestInvoices, fetchRevenue, fetchCardData } from "@/app/lib/data";
+import { Card } from "@/app/ui/dashboard/cards";
+import LatestInvoices from "@/app/ui/dashboard/latest-invoices";
+import RevenueChart from "@/app/ui/dashboard/revenue-chart";
+import { lusitana } from "@/app/ui/fonts";
 
 //this page is an async component
 export default async function Page() {
